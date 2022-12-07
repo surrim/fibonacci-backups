@@ -1,0 +1,39 @@
+body>div {
+	font-family: sans-serif;
+	border: .2em solid #888;
+	border-radius: 1em;
+	background-color: #eee;
+	padding: .5em 1em;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 17.5em;
+	transform: translate(-50%, -50%);
+}
+
+label {
+	width: 9em;
+	float: left;
+	margin-right: .5em;
+}
+
+input {
+	width: 9em;
+	text-align: center;
+	margin-bottom: .5em;
+}
+
+h3 {
+  	text-align: center;
+  	margin: 0.5em 0 0;
+   clear: left;
+}
+
+#result {
+  	text-align: center;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	overflow: auto;
+}
+
